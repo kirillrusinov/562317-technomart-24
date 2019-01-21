@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Кирилл Русинов](https://up.htmlacademy.ru/htmlcss/24/user/562317).
-* Наставник: `Неизвестно`.
+* Наставник: [Анатолий Долгов] (https://htmlacademy.ru/profile/dolgov_anatoly).
 
 ---
 
