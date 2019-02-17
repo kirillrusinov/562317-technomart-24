@@ -7,8 +7,12 @@
   <body>
     <header class="main-header">
 <div class="logo"><a href="index.html">Техномарт</a>
+  <img src="img/img-index/red-logo-header.png" width="220" height="47" alt="Интернет-магазин Техномарт">
 </div>
-<form class="search"> Поиск</form>
+<form class="search" action="" method="get">
+  <input name="search" placeholder="Поиск" type="search">
+  <button type="submit">Поиск</button>
+</form>
 <div class="bookmarks"><a href="bookmarks.html">Закладки</a>
 </div>
 <img src="http://placehold.it/50x50" alt="Корзина">
@@ -17,7 +21,6 @@
 <div class="checkout"><a href="checkout.html">Оформить заказ</a>
 </div>
 <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-  <!--Валидатор ругается здесь на section и на 49 строке, не пойму на что-->
 <section class="contact-info">
   <p class="number-phone">+7(812)555-05-55
 </p>
@@ -25,7 +28,7 @@
   </p>
 </section>
 
-<img src="http://placehold.it/50x50" alt="Карта">
+<img src="http://placehold.it/50x50" alt="Пользователь">
 <p class="name-id">Равшан Джамшутович</p>
 <img src="http://placehold.it/50x50"  alt="Выход">
 <ul>
@@ -177,4 +180,20 @@
   </div>
 </footer>
   </body>
+
+  <div class="b-container">
+      <a href="javascript:PopUpShow()">Show popup</a>
+  </div>
+  <section class="b-popup" id="popup1">
+      <div class="b-popup-content">
+      <a href="javascript:PopUpHide()">Hide popup</a>
+      <img src="img/img-inner/check-popup-66-66.png" width="66" height="66">
+      Товар добавлен в корзину!
+    <form method="post">
+      <button class="button-formal-order" type="submit">Оформить заказ</button>
+      <button class="continue-shop" type="submit">Продолжить покупки</button>
+    </form>
+      </div>
+  </section>
+
 </html>
