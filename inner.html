@@ -6,35 +6,35 @@
   </head>
   <body>
     <header class="main-header">
-<div class="logo"><a href="index.html">Техномарт</a>
-  <img src="img/img-index/red-logo-header.png" width="220" height="47" alt="Интернет-магазин Техномарт">
-</div>
-<form class="search" action="" method="get">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo-true.png" width="220" height="47" alt="Интернет-магазин Техномарт">
+          </a>
+      </div>
+<form class="search" action="https://echo.htmlacademy.ru" method="get">
   <input name="search" placeholder="Поиск" type="search">
   <button type="submit">Поиск</button>
 </form>
 <div class="bookmarks"><a href="bookmarks.html">Закладки</a>
 </div>
-<img src="http://placehold.it/50x50" alt="Корзина">
 <div class="basket"><a href="basket.html">Корзина</a>
 </div>
 <div class="checkout"><a href="checkout.html">Оформить заказ</a>
 </div>
 <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-<section class="contact-info">
+<div class="contact-info">
   <p class="number-phone">+7(812)555-05-55
 </p>
 <p class="main-address">г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
   </p>
-</section>
-
-<img src="http://placehold.it/50x50" alt="Пользователь">
+</div>
+<div class="user">
 <p class="name-id">Равшан Джамшутович</p>
-<img src="http://placehold.it/50x50"  alt="Выход">
 <ul>
 <li class="my-orders"><a href="my-orders.html">Мои заказы</a></li>
 <li class="cabinet"><a href="cabinet.html">Личный кабинет</a></li>
 </ul>
+</div>
 <nav class="main-navigation">
 <ul class="site-navigation">
 <li><a href="index.html">Главная</a></li>
@@ -50,9 +50,10 @@
 
 <main>
   <section>
+  <h2 class="visually-hidden">Выбор категории</h2>
   <nav class="section-menu">
 <ul class="criterions-checkbox">
-  <li><a href="index.html"><img src="http://placehold.it/50x50" alt="Домой"></a></li>
+  <li><a href="index.html"></a></li>
   <li><a href="inner.html">Каталог</a></li>
   <li>><a href="tools.html">Инструмент</a></li>
   <li><a href="perfs.html">Перфораторы</a></li>
@@ -76,18 +77,18 @@
   <li> <input type="radio" id="1" name="filter">Аккумуляторные</li>
   <li> <input type="radio" id="2" name="filter">Сетевые</li>
 </ul>
-<button class="button-catalog">Показать</button>
+<button class="button-catalog" type="button">Показать</button>
 </section>
 <section class="catalog">
   <ul>
     <li>
-<img src="img/img-inner/bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+<img src="img/bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 3000</h4>
 <p class="price-instr-old"><del>22500 Р.</del></p>
 <p class="price-instr">15500 Р.</p>
     </li>
     <li>
-<img src="img/img-inner/bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+<img src="img/bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 6000</h4>
 <p class="price-instr-old"><del>30500 Р.</del></p>
 <p class="price-instr">25500 Р.</p>
@@ -95,41 +96,40 @@
     <li class="new-product">
 <button class="buy">Купить</button>
 <button class="bookmarks.html">В закладки</button>
-<!--<p><a href="bookmarks.html">В закладки</a></p>  ссылка неправильный тег?-->
 <h4 class="name-instr">Перфоратор BOSCH BFG 2000</h4>
 <p class="price-instr">12500 Р.</p>
     </li>
     <li>
-<img src="img/img-inner/bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+<img src="img/bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 3000</h4>
 <p class="price-instr-old"><del>22500 Р.</del></p>
 <p class="price-instr">15500 Р.</p>
     </li>
     <li class="new-product">
-<img src="img/img-inner/bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+<img src="img/bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 6000</h4>
 <p class="price-instr-old"><del>30500 Р.</del></p>
 <p class="price-instr">25500 Р.</p>
     </li>
     <li>
-<img src="img/img-inner/bfg-2000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+<img src="img/bfg-2000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 2000</h4>
 <p class="price-instr">12500 Р.</p>
     </li>
     <li class="new-product">
-<img src="img/img-inner/bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+<img src="img/bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 3000</h4>
 <p class="price-instr-old"><del>22500 Р.</del></p>
 <p class="price-instr">15500 Р.</p>
     </li>
     <li>
-<img src="img/img-inner/bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+<img src="img/bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 6000</h4>
 <p class="price-instr-old"><del>30500 Р.</del></p>
 <p class="price-instr">25500 Р.</p>
     </li>
     <li>
-<img src="img/img-inner/bfg-2000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+<img src="img/bfg-2000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
 <h4 class="name-instr">Перфоратор BOSCH BFG 2000</h4>
 <p class="price-instr">12500 Р.</p>
     </li>
@@ -139,7 +139,11 @@
 </main>
 
 <footer class="main-footer">
-  <div class="logo"><a href="index.html">Техномарт</a></div>
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/logo-true.png" width="220" height="47" alt="Интернет-магазин Техномарт">
+      </a>
+  </div>
   <nav class="add-navigation">
   <ul class="footer-navigation">
   <li><a href="company.html">Компания</a></li>
@@ -179,21 +183,19 @@
     <p class="yellow-text">htmlacademy.ru</p>
   </div>
 </footer>
-  </body>
 
-  <div class="b-container">
-      <a href="javascript:PopUpShow()">Show popup</a>
-  </div>
-  <section class="b-popup" id="popup1">
-      <div class="b-popup-content">
-      <a href="javascript:PopUpHide()">Hide popup</a>
-      <img src="img/img-inner/check-popup-66-66.png" width="66" height="66">
-      Товар добавлен в корзину!
-    <form method="post">
-      <button class="button-formal-order" type="submit">Оформить заказ</button>
-      <button class="continue-shop" type="submit">Продолжить покупки</button>
-    </form>
-      </div>
-  </section>
+<section class="b-popup" id="popup1" hidden>
+    <div class="b-popup-content">
+      <button class="close" type="button"></button>
+    <!--<img src="img/img-inner/check-popup-66-66.png" width="66" height="66" alt="Ваш выбранный товар добавлен в корзину"> -->
+    Товар добавлен в корзину!
+  <!--<button class="button-formal-order" type="submit">Оформить заказ</button>-->
+    <div class="checkout-popup1"><a href="checkout.html">Оформить заказ</a>
+    </div>
+    <button class="continue-shop" type="button">Продолжить покупки</button>
+    </div>
+</section>
+
+  </body>
 
 </html>

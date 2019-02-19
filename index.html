@@ -3,39 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Интернет-магазин "Техномарт"</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-<div class="logo"><a href="index.html">Техномарт</a>
-  <img src="img/img-index/red-logo-header.png" width="220" height="47" alt="Интернет-магазин Техномарт">
+<div class="logo">
+  <a href="index.html">
+    <img src="img/logo-true.png" width="220" height="47" alt="Интернет-магазин Техномарт">
+    </a>
 </div>
-<form class="search" action="" method="get">
+<form class="search" action="https://echo.htmlacademy.ru" method="get">
   <input name="search" placeholder="Поиск" type="search">
   <button type="submit">Поиск</button>
 </form>
 <div class="bookmarks"><a href="bookmarks.html">Закладки</a>
 </div>
-<img src="http://placehold.it/50x50" alt="Корзина">
 <div class="basket"><a href="basket.html">Корзина</a>
 </div>
 <div class="checkout"><a href="checkout.html">Оформить заказ</a>
 </div>
 <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-<section class="contact-info">
+<div class="contact-info">
   <p class="number-phone">+7(812)555-05-55
 </p>
 <p class="main-address">г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
   </p>
-</section>
+</div>
 <nav class="user=navigation">
-  <!--Можно вставить это изображение как фоновое, чтоб облегчить загрузку страницы и код? Сделал так выше-->
-<img src="http://placehold.it/50x50"  alt="Вход на сайт">
-<!--На какую страницу будет вести эта ссылка?-->
-<form action="/index.html/">
-    <button type="submit">Войти</button>
+<form action="https://echo.htmlacademy.ru">
+    <button class="enter" type="submit">Войти</button>
 </form>
 <form action="/check-in.html/">
-    <button type="submit">Регистрация</button>
+    <button class="registration" type="submit">Регистрация</button>
 </form>
 </nav>
 <nav class="main-navigation">
@@ -69,13 +70,17 @@
 <p>Вы можете забрать товар сами,</p>
 <p>заехав к нам в офис.</p>
 </div>
-<img src="img/img-index/map.png" width="300" height="158" alt="Наше местоположение на карте">
+<img src="img/map.png" width="300" height="158" alt="Наше местоположение на карте">
 <div class="question"><a href="question.html">Заблудились? Напишите нам!</a></div>
 </section>
 </main>
 
 <footer class="main-footer">
-  <div class="logo"><a href="index.html">Техномарт</a></div>
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/logo-true.png" width="220" height="47" alt="Интернет-магазин Техномарт">
+      </a>
+  </div>
   <nav class="add-navigation">
   <ul class="footer-navigation">
   <li><a href="company.html">Компания</a></li>
@@ -115,27 +120,24 @@
     <p class="yellow-text">htmlacademy.ru</p>
   </div>
 </footer>
+
+<section class="b-popup" id="popup1" hidden>
+    <div class="b-popup-content">
+      <button class="button close" type="button"></button>
+  <form method="post" action="https://echo.htmlacademy.ru">
+    <label class="name"> Ваше имя:
+      <input class="user-name" type="text" placeholder="Имя Фамилия">
+    </label>
+    <label class="name"> Ваш e-mail:
+      <input class="user-email" type="email" placeholder="email@example.com">
+    </label>
+    <label class="letter"> Текст письма:
+      <textarea class="user-letter" placeholder="В свободной форме" rows="10" cols="45" name="text"></textarea>
+    </label>
+    <button class="button" type="submit">Отправить</button>
+  </form>
+    </div>
+</section>
+
   </body>
-
-  <div class="b-container">
-      <a href="javascript:PopUpShow()">Show popup</a>
-  </div>
-  <section class="b-popup" id="popup1">
-      <div class="b-popup-content">
-      <a href="javascript:PopUpHide()">Hide popup</a>
-    <form method="post">
-      <label class="name"> Ваше имя:
-        <input class="user-name" type="text" placeholder="Имя Фамилия">
-      </label>
-      <label class="name"> Ваш e-mail:
-        <input class="user-email" type="text" placeholder="email@example.com">
-      </label>
-      <label class="letter"> Текст письма:
-        <textarea class="user-letter" type="text" placeholder="В свободной форме" rows="10" cols="45" name="text"></textarea>
-      </label>
-      <button class="button" type="submit">Отправить</button>
-    </form>
-      </div>
-  </section>
-
 </html>
